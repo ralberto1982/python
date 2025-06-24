@@ -10,7 +10,7 @@ nota: las comisiones seran del 13%, redondear a maximo 2 decimales
 print("\n CALCULADORA DE COMISIONES \n")
 
 nombre= input("Ingresa tu nombre por favor: ")
-valorBase=int(input("Ingresa el valor base para calcular comisiones: "))
+valorBase=float(input("Ingresa el valor de las ventas para calcular comisiones: "))
 resultado=(valorBase * 13) /100
 
 comisiones=round(resultado,2)
