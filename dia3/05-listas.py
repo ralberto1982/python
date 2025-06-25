@@ -11,7 +11,7 @@ milista3=lista + lista2
 lista2[0]="edwin"
 # fragmentar
 print(lista2[1::2])
-print("Mi lista tiene ", len(lista), "elemntos")
+print("Mi lista tiene ", len(lista), "elementos")
 # concatenar
 print(lista2 + lista)
 print(lista)
