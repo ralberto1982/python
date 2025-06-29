@@ -1,3 +1,6 @@
+
+# zip no spermite cpmbinar multiples listas en en una sola 
+# 
 nombre=['Ana','Hugo','Valeria']
 edades=[65,29,42]
 ciudad=["Medellin","Bogota","Bello"]
