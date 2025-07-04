@@ -1,0 +1,6 @@
+# METODOS
+# TODOS LOS OBJETOS TIENEN METODOS ES IMPORTANTE CONCER Y UTILIZAR LA DOCUMENTACION
+dic={'clave1':100,'clave2':500}
+
+midic=dic.popitem()
+print(midic)
