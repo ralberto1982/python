@@ -10,7 +10,7 @@ resultado=texto.lower()
 resultado=texto.split()
 # con parmetros o criterio
 resultado=texto.split("t")
-
+print(resultado)
 # join unir
 a="aprender"
 b="python"
