@@ -1,0 +1,79 @@
+proyecto dia 6
+
+crear administrador de recetas
+leer
+crear
+actualizar
+eliminar
+
+arbol de directorios
+[recetas]--  [carnes]--------'punta de anca'
+                             'morrillo'
+
+            [Ensaladas]------'ensalada griega'
+                             'ensalada mediterranea'
+
+            [pastas]---------'canelones de espinaca'
+                             'ravioles de ricota'
+
+            [postres]--------'postre 3 leches'
+                             'tarta de manzana'
+
+
+
+1-crear directorio de carpertas en la carpeta base del progama
+2-el codigo debe dar la vienvenida al usuario, informar la ruta del 
+directorio donde se encuentra carpeta recetas
+-mostrara cuantas recetas hay en la carpeta
+-luego nos muestra unas opciones para elegir
+-[1]-leer recetas          -----categorias--mostrar recta--elegir receta--leer receta
+-[2]-crear receta          -----elegir categoria --crear nombre--crear contenido
+-[3]-crear categoria       -----nombre categoria--crear categoria con la carpeta con ese nombre
+-[4]-eliminar receta       -----elegir caetgoria--mostrar recetas--elegir recetas--eliminar receta  
+-[5]-eliminar categoria    -----elegir categoria--eliminar categoria--
+-[6]-finalizar programa    -----finalizar ejecucion del codigo
+
+consideraciones
+
+cada vez que el usuario selecione una opcion el sistema le pedira una letra para poder volver al inicio
+envolver el codigo en un loop while
+limpiar la consola cada vez que el usuario vuelva al inicio
+buscar en la documentacion metodos nuevos que necesites
+utiliza las funciones que sean necesarias
+hacer un diagrama de flujo o pasos a seguir
+
+
+menu=0
+if menu ==1:
+    # mostrar categorias
+    # elejir categoria
+    # mostrar ecetas
+    # elejir recetas
+    # leer recetas
+    # volver al menu
+    pass
+
+elif menu == 2:
+    # mostrar categorias
+    # elejir categoria
+    # crear nueva receta
+    # volver inicio
+    pass
+elif menu ==3:
+    # crear categoria
+    # volver inicio
+elif menu == 4:
+    # mostrar categorias
+    # elejir categoria
+    # mostrar recetas
+    # eliminar receta
+    # volver al menu
+    pass
+elif == 5:
+    # mostrar categorias
+    # elejir categoria
+    # eliminar categoria
+    # volver inicio
+    pass
+elif menu == 6:
+    # finalizar el programa

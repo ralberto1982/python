@@ -16,7 +16,8 @@
 # unaLinea=archivo.readline()
 # eliminar espcaciado entre lineas
 # print(unaLinea.rstrip())
-# utilizando metodos
+
+# podemos utilizar cualquier metodo para strings
 # print(unaLinea.upper())
 
 # iterando el archivo
