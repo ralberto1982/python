@@ -151,6 +151,11 @@ while not finalizarPrograma:
         misCategorias=mostrarCategorias(ruta)
         micategoria=elegirCategoria(misCategorias)
         misRecetas=mostrarRecetas(ruta)
+        if len(misRecetas)>1:
+            print("no hay recetas para mostrar")
+        else:
+            miReceta=elegirRecetas(misRecetas)
+            leerReceta(miReceta)
         miReceta=elegirRecetas(misRecetas)
         leerReceta(miReceta)
         volverInicio()
