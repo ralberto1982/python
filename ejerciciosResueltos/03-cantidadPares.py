@@ -2,7 +2,7 @@ from os import system
 
 system("cls")
 
-lista=list(range(1,300))
+lista=list(range(1,20))
 contador=0
 listaPares=[]
 
@@ -12,4 +12,6 @@ for num in lista:
         listaPares.append(num)
     else:
        pass
+   
+   
 print(f" Los numeros pares son: {listaPares} \n Cantidad de numeros pares: {contador}")
